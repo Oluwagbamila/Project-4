@@ -7,7 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
@@ -314,6 +313,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 5rem;
+    width: 20rem;
 }
 
 .navbar-brand img[src$=svg] {
@@ -378,10 +379,31 @@ a:hover {
 .text-center {
     text-align: center;
     line-height: 1.32;
+    color: black;
 }
 
 .linki {
     background-color: black;
+}
+
+.heading {
+    color: white;
+}
+
+.texty {
+    text-align: center;
+    line-height: 1.32;
+    color: white;
+}
+
+img {
+    width: 11rem;
+    height: 10rem;
+}
+
+.col-sm-6 img {
+    height: 20rem;
+    width: 25rem;
 }
 
 @media (min-width: 768px) {
@@ -919,9 +941,11 @@ h1 h2 {
     }
 
     h1 {
-        line-height: 0.1;
         padding-bottom: 3.2rem;
     }
+
+    .col-sm-12 {
+        width: auto;
 }
 
 @media (max-width: 767px) {
@@ -1067,6 +1091,10 @@ h1 h2 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    img {
+        width: 80%;
     }
 }
 
