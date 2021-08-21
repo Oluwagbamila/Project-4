@@ -64,6 +64,11 @@ a:hover {
     padding: 0;
 }
 
+.col-sm-12 img {
+    width: 15%;
+    height: 25%;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -402,8 +407,8 @@ img {
 }
 
 .col-sm-6 img {
-    height: 20rem;
-    width: 25rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 @media (min-width: 768px) {
@@ -817,11 +822,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F55409;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F55409!important;
     color: #FFFFFF!important;
 }
 
@@ -832,7 +837,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
-    background-color: #F3976C;
+    background-color: #F55409;
     border-radius: 12px;
     padding: 10px;
 }
@@ -842,7 +847,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F55409!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1085,6 +1090,21 @@ h1 h2 {
         width: 180px;
         height: 320px;
     }
+
+    .navbar-brand img {
+        height: 70%;
+        width: 70%;
+    }
+
+    img {
+        height: 70%;
+        width: 70%;
+        margin-left: -9rem;
+    }
+
+    .text-center {
+        margin-left: -18rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1096,6 +1116,8 @@ h1 h2 {
     img {
         width: 80%;
     }
+
+
 }
 
 @media (max-width: 767px) {
