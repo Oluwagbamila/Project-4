@@ -12,6 +12,18 @@ button {
     outline: none!important;
 }
 
+.second {
+    color: white !important;
+}
+
+.next a {
+    margin-bottom: 10px;
+}
+
+.mine {
+    margin-bottom: 10rem !important;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -62,6 +74,7 @@ a:hover {
 
 .col-sm-12 {
     padding: 0;
+
 }
 
 .col-sm-12 img {
@@ -318,8 +331,17 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    height: 5rem;
-    width: 20rem;
+    height: 1.5rem;
+    width: 7rem;
+}
+
+.sr-only {
+    color: white;
+}
+
+.okay img {
+    height: 6rem !important;
+    width:25rem !important;
 }
 
 .navbar-brand img[src$=svg] {
@@ -710,6 +732,7 @@ a {
     font-size: 38px;
     margin-left: 14rem;
     padding: 10px;
+    color: white;
 }
 
 .hero-bloc-text-sub {
@@ -929,20 +952,11 @@ h1 h2 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 
     h1 {
