@@ -340,8 +340,8 @@ a:hover {
 }
 
 .okay img {
-    height: 6rem !important;
-    width:25rem !important;
+    height: 4rem !important;
+    width: 21rem !important;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1105,11 +1105,6 @@ h1 h2 {
         height: 320px;
     }
 
-    .navbar-brand img {
-        height: 70%;
-        width: 70%;
-    }
-
     img {
         height: 70%;
         width: 70%;
@@ -1205,6 +1200,15 @@ h1 h2 {
         display: flex;
         margin-left: 9rem;
     }
+
+    .zero {
+        margin-left: 0 !important;
+    }
+
+    #bloc-0 {
+        margin-bottom: 3rem;
+    }
+
 }
 
 @media (max-width: 767px) {
